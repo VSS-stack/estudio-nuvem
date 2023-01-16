@@ -1,0 +1,34 @@
+body {
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.cabecalho {
+    align-items: center;
+    background-image: url(./assets/Grupo\ 2.svg);
+    background-position: bottom;
+    background-size: cover;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    overflow-y: visible;
+    padding: 40px 7%;
+}
+
+.cabecalho__nav__lista {
+    align-items: center;
+    display: flex;
+}
+
+.nav--link {
+    color: #707070;
+    font-weight: 500;
+    padding-right: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.logo--nav {
+    padding-left: 15px;
+    width: 30px;
+}
