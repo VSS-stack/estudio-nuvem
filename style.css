@@ -13,6 +13,7 @@ body {
     justify-content: space-between;
     overflow-y: visible;
     padding: 40px 7%;
+    position: fixed;
 }
 
 .cabecalho__nav__lista {
@@ -31,4 +32,8 @@ body {
 .logo--nav {
     padding-left: 15px;
     width: 30px;
+}
+
+.banner__principal {
+    height: 100vh;
 }
